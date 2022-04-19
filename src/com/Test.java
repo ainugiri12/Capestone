@@ -24,7 +24,16 @@ public class Test {
 		s4.markAttendance();
 		s4.payFee(15000);
 		
-		
+		Car c1 = new Car("AP01AZ0555", "BMW", 2021);
+		Car c2 = new Car("BH01AZ0555", "Ford", 2021);
+		Car c3 = new Car("WB01AZ0555", "Maruti", 2021);
+		Car c4 = new Car("PB01AZ0555", "Tata", 2021);
+		c1.start();
+		c2.start();
+		c3.start();
+		c4.start();
+		c2.increaseSpeed(3);
+		c3.increaseSpeed(5);
 	}
 
 }
