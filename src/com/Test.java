@@ -28,12 +28,16 @@ public class Test {
 		Car c2 = new Car("BH01AZ0555", "Ford", 2021);
 		Car c3 = new Car("WB01AZ0555", "Maruti", 2021);
 		Car c4 = new Car("PB01AZ0555", "Tata", 2021);
+		Car c5 = new Car("TN21AK0021", "Honda", 2022);
 		c1.start();
 		c2.start();
 		c3.start();
 		c4.start();
+		c5.start();
 		c2.increaseSpeed(3);
 		c3.increaseSpeed(5);
+		c5.increaseSpeed(10);
+		c5.stop();
 	}
 
 }
