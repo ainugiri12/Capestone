@@ -7,6 +7,6 @@ public class Test {
 		c1.f2();
 		c1.f3();
 		c1.f4();
-		
+		System.out.println("Hi Hello World");
 	}
 }
