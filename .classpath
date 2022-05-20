@@ -7,5 +7,6 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="lib" path="C:/Users/pongi/Downloads/ojdbc11.jar"/>
+	<classpathentry kind="lib" path="D:/junit-4.8.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
